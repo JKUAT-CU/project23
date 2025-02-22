@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-maroon: 128, 0, 0;
+    --brand-brown: 247, 163, 6;
+    --brand-green: 8, 144, 0;
+  }
+}
+
+body {
+  @apply antialiased;
+}
+
